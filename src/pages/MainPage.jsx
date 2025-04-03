@@ -8,7 +8,7 @@ function MainPage() {
       <Navigation />
       <div>
       <Link to="/pages/teamMatching">
-        <img src="/badminton.png" width="30%"/>
+        <img src="/badminton.png" alt="badminton" width="30%" />
       </Link>
       </div>
     </div>

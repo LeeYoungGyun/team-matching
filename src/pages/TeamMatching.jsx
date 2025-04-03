@@ -39,7 +39,6 @@ function TeamMatching() {
   };
 
   const handleRemove = (name) => {
-    console.log('name===', name);
     setWaitingList((prev) => prev.filter((n) => n !== name));
   };
 
