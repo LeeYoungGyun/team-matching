@@ -6,11 +6,11 @@ function MainPage() {
   return (
     <div>
       <Navigation />
-      <div>
-      <Link to="/pages/teamMatching">
-        <img src="/badminton.png" alt="badminton" width="30%" />
+      <div className="flex justify-center">
+      <Link to="/pages/teamMatching" className="inline-block w-[300px]">
+        <img src="/badminton.png" alt="badminton" className="w-full" />
       </Link>
-      </div>
+    </div>
     </div>
   );
 }

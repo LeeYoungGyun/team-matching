@@ -120,7 +120,7 @@ function TeamMatching() {
                   </button>
                 ))}
               </div>
-              <div className="flex items-center gap-2">
+              <div className="flex flex-wrap gap-2">
                 <input
                   type="text"
                   className="flex-1 px-3 py-1 rounded text-black text-sm"
